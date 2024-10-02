@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            font-family: sans-serif;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+        .box {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 2em;
+            align-items: center;
+        }
+        .inBox{
+            display: flex;
+            flex-direction: column;
+            height: 550px;
+            width: 400px;
+            padding: 2em;
+            border: black 3px solid;
+            border-radius: 1em;
+            background-color: hotpink;
+            justify-content: center;
+            align-items: center;
+        }
+        .inBox2{
+            display: flex;
+            flex-direction: column;
+            padding-left: 3em;
+            padding-right: 3em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            border: black 3px solid;
+            border-radius: 1em;
+            background-color: pink;
+            justify-content: center;
+        }
+    </style>
+    <title> PROVA </title>
+</head>
+<body
+        style="
+        margin: 0;
+        border: solid 20px deeppink;
+        height: 100vh;
+        background-image: url('images/raimbow.png');
+        background-size: cover;
+        background-repeat: no-repeat;"
+>
+    <div class="box" style="margin-top: 50px">
+        <div class="inBox2" style="font-size: 48px; font-weight: bolder">I PIÙ FORTI</div>
+    </div>
+    <div class="box" style="margin-top: 100px">
+        <div class="inBox" style="text-align: center">
+            <img src="images/fede.jpg" width="300" height="300">
+            <h1>FEDERICO PINTABONA</h1>
+            <div style="font-size: 24px">IL DEMOCRISTIANO</div>
+        </div>
+        <div class="inBox" style="text-align: center">
+            <img src="images/vitto.jpg" width="300" height="300">
+            <h1>VITTORIO LORENZINI</h1>
+            <div style="font-size: 24px">IL COMUNISTA</div>
+        </div>
+        <div class="inBox" style="text-align: center">
+            <img src="images/dario.jpg" width="300" height="300">
+            <h1>ANTININO DARIO GANGI</h1>
+            <div style="font-size: 24px">IL SICULO</div>
+        </div>
+    </div>
+</body>
+</html>
